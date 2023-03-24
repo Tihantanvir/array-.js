@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.header-banner {
+    background-image: url(./banner/banner2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+
+
+
+
+}
+
+
+.header-section {
+
+
+    padding: 210px 120px;
+
+
+}
+
+.head-title {
+    /* text-align-last: right; */
+    margin-bottom: 30px;
+    align-items: center;
+    text-align-last: right;
+
+
+
+}
+
+.header-description {
+    margin-bottom: 30px;
+    align-items: center;
+    text-align-last: right;
+
+
+
+}
+
+.btn-primary {
+    margin: 78px 30px;
+    align-items: center;
+    Width: 160px;
+    Height: 64px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(166, 160, 148, 0.525);
+    font-size: 20px;
+    
+
+}

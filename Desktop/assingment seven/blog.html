@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+    <link rel="icon" type="image/x-icon" href="./images/Bloged.png">
+  </head>
+  <body>
+    <head>
+      <h1></h1>
+    </head>
+    <section style="width: 70%; margin: 0 auto">
+      <div
+        style="
+          text-align: center;
+          background-color: aliceblue;
+          padding: 5px 0;
+          margin: 7px 0;
+        "
+      >
+        <h4>What is difference between map, filter, forEach and find ?</h4>
+        <p>
+          1. <span style="color: green"> map()</span> loop on every element in
+          an array and returns a new array with the updated elements.
+        </p>
+        <p>
+          2. <span style="color: green"> filter()</span> check every element in
+          an array with condition and return a new array that's element fulfil
+          this condition.
+        </p>
+        <p>
+          3. <span style="color: green"> forEach()</span> loop on every element
+          in an array but doesn't return anything, always forEach mathod return
+          undefind.
+        </p>
+        <p>
+          4. <span style="color: green"> find()</span> check every element in an
+          array with condition and return only first element.
+        </p>
+      </div>
+      <div
+        style="
+          text-align: center;
+          background-color: #faf7eb;
+          padding: 5px 0;
+          margin: 7px 0;
+        "
+      >
+        <h4>
+          what is difference between Local storage, Session storage and Cookies
+          ?
+        </h4>
+        <p>
+          1. Local storage is storing data, Available for future and No expired
+          date
+        </p>
+        <p>
+          2. Session storage is storing data, Not available for future and
+          expired when close this window
+        </p>
+        <p>
+          3. Cookies are text files with small pieces of data, cookies have
+          unique name identifire, set expired date.
+        </p>
+      </div>
+      <div
+        style="
+          text-align: center;
+          background-color: #edfadf;
+          padding: 5px 0;
+          margin: 7px 0;
+        "
+      >
+        <h4>what is Event loop ? How does work it ?</h4>
+
+        <p>
+          JavaScript is a single-threaded synchronous programming language. but
+          sometime JavaScript can be aynchronus with event loop.
+        </p>
+        <p>
+          Event loop is just a guardian who keeps a good communication with Call
+          Stack and Callback Queue. It checks if the call stack is free, then
+          lets know the callback queue. Then Callback queue passes the callback
+          function to Call stack to be executed. When all the callback functions
+          are executed, the call stack is out and global execution context is
+          free.
+        </p>
+      </div>
+    </section>
+    <section style="width: 70%; margin: 0 auto">
+      <div style="margin: 5px 0; text-align: center">
+        <h1>Function Explanation</h1>
+      </div>
+      <div
+        style="
+          text-align: center;
+          background-color: #dffbfc;
+          padding: 5px 0;
+          margin: 7px 0;
+        "
+      >
+        <h4>quizTimer()</h4>
+        <p>
+          Here quizeTimer fuction use for quize timing alert and clearInterval
+          use for stop timing quize, when i submit my ans here stop the time.
+          setInterval use when time is out of 60 sec then time show me alert
+          with red color.This function occur for 1 minute.
+        </p>
+      </div>
+      <div
+        style="
+          text-align: center;
+          background-color: #fce0fd;
+          padding: 5px 0;
+          margin: 7px 0;
+        "
+      >
+        <h4>chooseQuiz()</h4>
+        <p>
+          Here this function take 2 perameter one for index which count the
+          question number and another one used for take ans number. also use
+          splice which add aray elements.When i choose the answer push add new
+          elements every time.At last of the function called display function
+          which show the question answer.
+        </p>
+      </div>
+    </section>
+  </body>
+</html>
